@@ -1,0 +1,32 @@
+---
+title: "R Notebook"
+output: html_notebook
+---
+
+This is an [R Markdown](http://rmarkdown.rstudio.com) Notebook. When you execute code within the notebook, the results appear beneath the code. 
+
+Try executing this chunk by clicking the *Run* button within the chunk or by placing your cursor inside it and pressing *Cmd+Shift+Enter*. 
+
+```{r}
+# install.packages("devtools")
+# devtools::install_github("andreweatherman/cbbdata")
+library(ggplot2)
+library(dplyr)
+```
+
+
+```{r}
+
+# to register
+#cbbdata::cbd_create_account(username = 'Naki', email = 'nakiyahdhariwala98@hotmail.com', password = 'Duke@123', confirm_password = 'Duke@123')
+
+cbbdata::cbd_login(username = 'Naki', password = 'Duke@123')
+```
+
+
+```{r}
+data_Duke <- cbbdata::cbd_torvik_game_factors(year = 2024, team = 'Duke') 
+
+print(data_Duke)
+```
+
