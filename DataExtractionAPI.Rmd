@@ -27,10 +27,21 @@ cbbdata::cbd_login(username = 'Naki', password = 'Duke@123')
 ```{r}
 # Game Factors
 data_Duke <- cbbdata::cbd_torvik_game_factors(year = 2025, team = 'Duke') 
-
 # Game Stats + Factors
 data_Duke1 <- cbbdata::cbd_torvik_game_stats(year = 2025, team = 'Duke')
 
 print(data_Duke1)
 ```
+
+```{r}
+file_path <- "team_data_collected_df.csv"
+data <- read.csv(file_path)
+head(data)
+```
+
+
+
+
+
+
 
