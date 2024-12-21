@@ -1,0 +1,318 @@
+"date","team","opp","adj_o","adj_d"
+2024-12-17,"George Mason","Duke",93.6,93.5
+2024-12-10,"Incarnate Word","Duke",96.6,98.5
+2024-12-08,"Louisville","Duke",121,97.3
+2024-12-04,"Auburn","Duke",152.8,117.1
+2024-11-29,"Seattle","Duke",88.5,89.3
+2024-11-26,"Kansas","Duke",134.8,92.6
+2024-11-22,"Arizona","Duke",98.9,90.4
+2024-11-16,"Wofford","Duke",69.8,115.5
+2024-11-12,"Kentucky","Duke",119.6,88.1
+2024-11-08,"Army","Duke",107.2,119
+2024-11-04,"Maine","Duke",108.9,110.8
+2024-12-17,"Florida","North Carolina",124.3,96.2
+2024-12-14,"La Salle","North Carolina",96.8,107.5
+2024-12-07,"Georgia Tech","North Carolina",93.3,79.5
+2024-12-04,"Alabama","North Carolina",122.1,85.2
+2024-11-27,"Michigan St.","North Carolina",128.7,101.3
+2024-11-26,"Auburn","North Carolina",124.2,87.2
+2024-11-25,"Dayton","North Carolina",126.8,105.4
+2024-11-22,"Hawaii","North Carolina",107.5,116.8
+2024-11-15,"American","North Carolina",96.3,116.4
+2024-11-08,"Kansas","North Carolina",128.2,103.6
+2024-11-04,"Elon","North Carolina",111.1,107.7
+2024-12-14,"Kansas","N.C. State",126.8,94.3
+2024-12-10,"Coppin St.","N.C. State",96.3,97.9
+2024-12-07,"Florida St.","N.C. State",116.6,113.8
+2024-12-04,"Texas","N.C. State",113,96.1
+2024-11-29,"BYU","N.C. State",121.7,87.5
+2024-11-28,"Purdue","N.C. State",125.9,100.1
+2024-11-22,"William & Mary","N.C. State",87.7,105.6
+2024-11-18,"Colgate","N.C. State",73,95.7
+2024-11-13,"Coastal Carolina","N.C. State",105.9,111.2
+2024-11-08,"Presbyterian","N.C. State",112.3,116.9
+2024-11-04,"USC Upstate","N.C. State",98.5,120
+2024-12-18,"UMBC","Georgia Tech",111.9,121.8
+2024-12-15,"Northwestern","Georgia Tech",107.8,82.8
+2024-12-07,"North Carolina","Georgia Tech",90.7,86.3
+2024-12-03,"Oklahoma","Georgia Tech",113.5,100.7
+2024-11-30,"Central Arkansas","Georgia Tech",112.4,130.1
+2024-11-27,"Charleston Southern","Georgia Tech",96.2,117.7
+2024-11-23,"Cincinnati","Georgia Tech",121.4,82.4
+2024-11-15,"Georgia","Georgia Tech",107.6,90.1
+2024-11-12,"Texas Southern","Georgia Tech",86.2,108
+2024-11-10,"North Florida","Georgia Tech",133.4,112.8
+2024-11-06,"West Georgia","Georgia Tech",86.3,111.8
+2024-12-15,"Navy","Virginia Tech",126.3,128.6
+2024-12-12,"North Carolina A&T","Virginia Tech",93.6,120.9
+2024-12-07,"Pittsburgh","Virginia Tech",99.3,93
+2024-12-04,"Vanderbilt","Virginia Tech",121.7,97.6
+2024-11-27,"South Carolina","Virginia Tech",114,95.5
+2024-11-25,"Michigan","Virginia Tech",105.8,94.8
+2024-11-20,"Jacksonville","Virginia Tech",107.1,95.9
+2024-11-15,"Penn St.","Virginia Tech",119.2,89.1
+2024-11-11,"Winthrop","Virginia Tech",87,89.3
+2024-11-08,"USC Upstate","Virginia Tech",113.1,121.7
+2024-11-04,"Delaware St.","Virginia Tech",89.8,114.2
+2024-12-14,"LSU","SMU",95.5,90.5
+2024-12-07,"Virginia","SMU",90.2,86.7
+2024-12-03,"Alabama St.","SMU",110.8,120.5
+2024-11-27,"Washington St.","SMU",107.1,105.5
+2024-11-26,"Cal Baptist","SMU",122,115.6
+2024-11-22,"Mississippi St.","SMU",123.3,104.2
+2024-11-18,"Prairie View A&M","SMU",100.9,114.5
+2024-11-15,"Butler","SMU",119,95.1
+2024-11-11,"UNC Greensboro","SMU",99.7,99
+2024-11-07,"Florida A&M","SMU",101.7,116.3
+2024-11-04,"Tarleton St.","SMU",89.7,117.1
+2024-12-11,"Eastern Kentucky","Pittsburgh",101.4,112.4
+2024-12-07,"Virginia Tech","Pittsburgh",100.5,88.4
+2024-12-04,"Mississippi St.","Pittsburgh",139.8,80.3
+2024-11-29,"Ohio St.","Pittsburgh",129.5,110.1
+2024-11-24,"Wisconsin","Pittsburgh",124.7,103.8
+2024-11-22,"LSU","Pittsburgh",101.8,99.9
+2024-11-18,"VMI","Pittsburgh",86.8,114.3
+2024-11-15,"West Virginia","Pittsburgh",92.6,107.7
+2024-11-11,"Gardner Webb","Pittsburgh",94.7,103.7
+2024-11-08,"Murray St.","Pittsburgh",111.3,105.3
+2024-11-04,"Radford","Pittsburgh",95.4,115.7
+2024-12-11,"Dartmouth","Notre Dame",97.8,106.6
+2024-12-07,"Syracuse","Notre Dame",98.5,94.4
+2024-12-03,"Georgia","Notre Dame",114.7,82.9
+2024-11-30,"Creighton","Notre Dame",120.9,99.6
+2024-11-27,"Houston","Notre Dame",109.2,84.5
+2024-11-26,"Rutgers","Notre Dame",119,109.3
+2024-11-22,"Elon","Notre Dame",133.5,115
+2024-11-19,"North Dakota","Notre Dame",91.6,101.5
+2024-11-16,"Georgetown","Notre Dame",101.7,123.9
+2024-11-11,"Buffalo","Notre Dame",104.3,103.2
+2024-11-06,"Stonehill","Notre Dame",95.7,119.2
+2024-12-15,"Stonehill","Boston College",113.1,119.4
+2024-12-07,"Wake Forest","Boston College",106.8,104.9
+2024-12-03,"South Carolina","Boston College",111.5,79.7
+2024-11-29,"Dartmouth","Boston College",120.6,112.4
+2024-11-26,"Boise St.","Boston College",91.2,91.7
+2024-11-25,"Missouri St.","Boston College",103.1,107
+2024-11-24,"Old Dominion","Boston College",83.9,120.4
+2024-11-19,"Loyola MD","Boston College",98.6,122.6
+2024-11-15,"Temple","Boston College",108,111.2
+2024-11-08,"VCU","Boston College",110.6,79.5
+2024-11-04,"The Citadel","Boston College",88.9,102.4
+2024-12-20,"Penn","Rider",120.5,113.2
+2024-12-14,"Stony Brook","Rider",115,100
+2024-12-06,"Quinnipiac","Rider",106.8,110.6
+2024-12-04,"Fairfield","Rider",112,120.2
+2024-11-30,"Delaware","Rider",110.3,109.6
+2024-11-27,"Villanova","Rider",110.6,90.4
+2024-11-23,"Bucknell","Rider",79.6,101.7
+2024-11-19,"Iowa","Rider",105.9,88.3
+2024-11-12,"Navy","Rider",106.7,140.3
+2024-11-09,"Coppin St.","Rider",72.6,100
+2024-11-06,"San Diego","Rider",88,103.7
+2024-11-04,"UCLA","Rider",118.6,88.7
+2024-12-18,"Longwood","Campbell",113.2,91.3
+2024-12-15,"Morgan St.","Campbell",116.1,121.4
+2024-12-12,"The Citadel","Campbell",93.1,139.2
+2024-12-04,"Coastal Carolina","Campbell",93.8,93
+2024-11-30,"Green Bay","Campbell",86.1,112.5
+2024-11-24,"Evansville","Campbell",93.8,90
+2024-11-22,"Ohio St.","Campbell",129.8,97.3
+2024-11-17,"Navy","Campbell",93.3,127.9
+2024-11-10,"Saint Francis","Campbell",91.1,101.6
+2024-11-06,"Virginia","Campbell",105.7,104.6
+2024-12-17,"Prairie View A&M","UCLA",120.6,132.9
+2024-12-14,"Arizona","UCLA",98.6,81.9
+2024-12-08,"Oregon","UCLA",119.6,104.7
+2024-12-03,"Washington","UCLA",106,98.7
+2024-11-26,"Southern Utah","UCLA",76.7,109.8
+2024-11-22,"Cal St. Fullerton","UCLA",90.4,106.7
+2024-11-20,"Idaho St.","UCLA",128.6,126.5
+2024-11-15,"Lehigh","UCLA",87.2,115.7
+2024-11-11,"Boston University","UCLA",67.9,87.9
+2024-11-08,"New Mexico","UCLA",113.2,77.3
+2024-11-04,"Rider","UCLA",96.3,117.9
+2024-12-17,"Winthrop","Florida St.",93.3,101.9
+2024-12-14,"Tulane","Florida St.",98.8,109.7
+2024-12-07,"N.C. State","Florida St.",128.6,106.9
+2024-12-03,"LSU","Florida St.",123.6,102.5
+2024-11-26,"Western Carolina","Florida St.",86,111.2
+2024-11-24,"Massachusetts","Florida St.",95.9,116.6
+2024-11-22,"Temple","Florida St.",103.4,101.4
+2024-11-19,"Hofstra","Florida St.",100.4,107
+2024-11-15,"Florida","Florida St.",130,94.4
+2024-11-12,"Tarleton St.","Florida St.",82.4,92
+2024-11-09,"Rice","Florida St.",99.5,98.9
+2024-11-04,"Northern Kentucky","Florida St.",88.3,93.3
+2024-12-14,"Tennessee","Illinois",113.7,88.9
+2024-12-10,"Wisconsin","Illinois",124.6,104.4
+2024-12-06,"Northwestern","Illinois",101.6,83.3
+2024-11-28,"Arkansas","Illinois",118.4,115.8
+2024-11-25,"Little Rock","Illinois",66.3,113.5
+2024-11-23,"Maryland Eastern Shore","Illinois",72.6,100.3
+2024-11-20,"Alabama","Illinois",141.1,96.1
+2024-11-13,"Oakland","Illinois",89.7,87
+2024-11-08,"SIU Edwardsville","Illinois",103.1,114.5
+2024-11-04,"Eastern Illinois","Illinois",101.4,113.8
+2024-12-18,"Memphis","Virginia",110.3,98.6
+2024-12-12,"Bethune Cookman","Virginia",89.8,93.9
+2024-12-07,"SMU","Virginia",103.9,87.1
+2024-12-04,"Florida","Virginia",142.8,113.7
+2024-11-29,"Holy Cross","Virginia",82.6,113.5
+2024-11-26,"Manhattan","Virginia",113.9,122.1
+2024-11-22,"St. John's","Virginia",138.5,90.7
+2024-11-21,"Tennessee","Virginia",109.9,76.3
+2024-11-15,"Villanova","Virginia",104.7,113.6
+2024-11-11,"Coppin St.","Virginia",78.6,97.5
+2024-11-06,"Campbell","Virginia",106.4,110.5
+2024-12-17,"Merrimack","Stanford",101.9,104
+2024-12-07,"California","Stanford",120.6,130.7
+2024-12-03,"Utah Valley","Stanford",89.4,95.3
+2024-11-30,"Cal Poly","Stanford",127.3,111
+2024-11-26,"Grand Canyon","Stanford",105.3,90.6
+2024-11-23,"Santa Clara","Stanford",102.1,93.3
+2024-11-20,"Norfolk St.","Stanford",102.7,102.1
+2024-11-17,"UC Davis","Stanford",92.8,100.7
+2024-11-12,"Northern Arizona","Stanford",113.6,131
+2024-11-08,"Cal St. Fullerton","Stanford",97.1,106.8
+2024-11-04,"Denver","Stanford",96.6,109.9
+2024-12-14,"Northwestern St.","California",105,117.4
+2024-12-10,"Cornell","California",120.4,99.9
+2024-12-07,"Stanford","California",136.7,109.9
+2024-12-03,"Missouri","California",121.6,118.6
+2024-11-27,"Mercyhurst","California",86.8,112
+2024-11-24,"Sacramento St.","California",105,108.7
+2024-11-21,"Air Force","California",102.7,109.7
+2024-11-17,"USC","California",97.6,101
+2024-11-13,"Vanderbilt","California",108.1,85.5
+2024-11-07,"Cal Poly","California",98.3,108.5
+2024-11-04,"Cal St. Bakersfield","California",98,110.3
+2024-12-17,"South Carolina","Clemson",130.8,107.8
+2024-12-14,"Memphis","Clemson",128.4,100.4
+2024-12-07,"Miami FL","Clemson",102.6,100.1
+2024-12-03,"Kentucky","Clemson",107.9,93.7
+2024-11-29,"Florida A&M","Clemson",104,112.6
+2024-11-26,"Penn St.","Clemson",106.9,98.6
+2024-11-25,"San Francisco","Clemson",102.5,100.7
+2024-11-21,"Radford","Clemson",91.6,108.9
+2024-11-17,"Boise St.","Clemson",123.2,97.3
+2024-11-12,"Eastern Kentucky","Clemson",107.8,104
+2024-11-08,"Saint Francis","Clemson",95.9,111.2
+2024-11-04,"Charleston Southern","Clemson",103.2,116.4
+2024-12-14,"Georgetown","Syracuse",109.4,98.7
+2024-12-10,"Albany","Syracuse",117.7,130.3
+2024-12-07,"Notre Dame","Syracuse",99,90.1
+2024-12-03,"Tennessee","Syracuse",130.4,98.9
+2024-11-27,"Cornell","Syracuse",98.7,98.4
+2024-11-22,"Texas Tech","Syracuse",116.4,102.9
+2024-11-21,"Texas","Syracuse",106.4,88.7
+2024-11-16,"Youngstown St.","Syracuse",109.8,105.1
+2024-11-12,"Colgate","Syracuse",101.4,100.4
+2024-11-04,"Le Moyne","Syracuse",108.4,102
+2024-12-15,"Presbyterian","Miami FL",113.2,129.6
+2024-12-10,"Tennessee","Miami FL",106.3,81.7
+2024-12-07,"Clemson","Miami FL",103.4,84.4
+2024-12-03,"Arkansas","Miami FL",106.5,97.7
+2024-11-30,"Charleston Southern","Miami FL",118.6,102.3
+2024-11-24,"VCU","Miami FL",118.8,95.6
+2024-11-22,"Oklahoma St.","Miami FL",121.6,95
+2024-11-21,"Drake","Miami FL",125.5,99
+2024-11-17,"Coppin St.","Miami FL",92.4,120.8
+2024-11-10,"Binghamton","Miami FL",91.9,112
+2024-11-04,"Fairleigh Dickinson","Miami FL",98.4,129.5
+2024-12-17,"Georgia St.","Auburn",98.4,101.3
+2024-12-14,"Ohio St.","Auburn",93.8,110.6
+2024-12-08,"Richmond","Auburn",88.3,103.2
+2024-12-04,"Duke","Auburn",145.6,103.4
+2024-11-27,"Memphis","Auburn",122.6,111.6
+2024-11-26,"North Carolina","Auburn",106.5,94.5
+2024-11-25,"Iowa St.","Auburn",129.8,92.6
+2024-11-18,"North Alabama","Auburn",111.6,105.5
+2024-11-13,"Kent St.","Auburn",101.5,98.9
+2024-11-09,"Houston","Auburn",126.3,94.4
+2024-11-06,"Vermont","Auburn",76.7,103
+2024-12-18,"North Dakota","Alabama",129.7,110.4
+2024-12-14,"Creighton","Alabama",106.2,95.8
+2024-12-04,"North Carolina","Alabama",100.5,98.1
+2024-11-30,"Oregon","Alabama",120.1,95.1
+2024-11-27,"Rutgers","Alabama",123.3,102.8
+2024-11-26,"Houston","Alabama",115.5,95.1
+2024-11-20,"Illinois","Alabama",113.2,107
+2024-11-15,"Purdue","Alabama",134.5,102.3
+2024-11-11,"McNeese St.","Alabama",102.7,92.5
+2024-11-08,"Arkansas St.","Alabama",101,88.8
+2024-11-04,"UNC Asheville","Alabama",89.9,117.5
+2024-12-14,"N.C. State","Kansas",109.2,108
+2024-12-08,"Missouri","Kansas",119.1,80.4
+2024-12-04,"Creighton","Kansas",120.7,81.6
+2024-11-30,"Furman","Kansas",97.3,108
+2024-11-26,"Duke","Kansas",116.1,100.8
+2024-11-19,"UNC Wilmington","Kansas",108.7,105.1
+2024-11-16,"Oakland","Kansas",102.2,110.3
+2024-11-12,"Michigan St.","Kansas",99.7,86.8
+2024-11-08,"North Carolina","Kansas",127.6,107.8
+2024-11-04,"Howard","Kansas",89.7,109.4
+2024-12-17,"Western Carolina","Tennessee",70,93.3
+2024-12-14,"Illinois","Tennessee",116.1,89.7
+2024-12-10,"Miami FL","Tennessee",109,99.2
+2024-12-03,"Syracuse","Tennessee",124.8,117.4
+2024-11-27,"Tennessee Martin","Tennessee",80.6,103
+2024-11-22,"Baylor","Tennessee",111.9,119.2
+2024-11-21,"Virginia","Tennessee",89.9,89.1
+2024-11-17,"Austin Peay","Tennessee",117.2,124.2
+2024-11-13,"Montana","Tennessee",110.1,111.5
+2024-11-09,"Louisville","Tennessee",96.9,103.2
+2024-11-04,"Gardner Webb","Tennessee",113.7,104.9
+2024-12-14,"Texas A&M","Purdue",114.4,88.1
+2024-12-08,"Maryland","Purdue",122.6,102.1
+2024-12-05,"Penn St.","Purdue",121.7,84.9
+2024-11-29,"Mississippi","Purdue",129.5,114.8
+2024-11-28,"N.C. State","Purdue",109.9,105.5
+2024-11-23,"Marshall","Purdue",77.3,100.4
+2024-11-19,"Marquette","Purdue",113.9,79.7
+2024-11-15,"Alabama","Purdue",126.8,110.5
+2024-11-11,"Yale","Purdue",122.8,111.9
+2024-11-08,"Northern Kentucky","Purdue",87.7,100.1
+2024-11-04,"Texas A&M Corpus Chris","Purdue",109.9,105.5
+2024-12-20,"Cincinnati","Dayton",111.4,80.5
+2024-12-17,"UNLV","Dayton",112.9,100
+2024-12-14,"Marquette","Dayton",112.3,97.7
+2024-12-07,"Lehigh","Dayton",102.8,121.8
+2024-12-03,"Western Michigan","Dayton",125.2,112.8
+2024-11-27,"Connecticut","Dayton",112.2,114.1
+2024-11-26,"Iowa St.","Dayton",132.4,112.4
+2024-11-25,"North Carolina","Dayton",120,107.1
+2024-11-20,"New Mexico St.","Dayton",97.3,104.1
+2024-11-13,"Ball St.","Dayton",97.8,101.3
+2024-11-09,"Northwestern","Dayton",104.6,89.3
+2024-11-04,"Saint Francis","Dayton",89.2,106.1
+2024-12-18,"Samford","Arizona",105.3,118
+2024-12-14,"UCLA","Arizona",96.8,78.3
+2024-12-07,"Southern Utah","Arizona",98.3,118
+2024-11-29,"West Virginia","Arizona",124.8,97.2
+2024-11-28,"Oklahoma","Arizona",133.6,99.4
+2024-11-27,"Davidson","Arizona",108.3,114.5
+2024-11-22,"Duke","Arizona",112.3,75.5
+2024-11-15,"Wisconsin","Arizona",136.9,99.9
+2024-11-09,"Old Dominion","Arizona",76.7,117
+2024-11-04,"Canisius","Arizona",98.4,118.1
+2024-12-18,"Toledo","Houston",85.8,94.4
+2024-12-10,"Troy","Houston",90.2,100.7
+2024-12-07,"Butler","Houston",107.7,108.8
+2024-11-30,"San Diego St.","Houston",134.2,99.3
+2024-11-27,"Notre Dame","Houston",107.3,94
+2024-11-26,"Alabama","Houston",132.9,95.6
+2024-11-22,"Hofstra","Houston",87.4,109.7
+2024-11-13,"Louisiana","Houston",84.8,105.1
+2024-11-09,"Auburn","Houston",139.4,101
+2024-11-04,"Jackson St.","Houston",78.3,121
+2024-12-18,"Oklahoma","Michigan",133.9,113.1
+2024-12-10,"Arkansas","Michigan",124.8,102.1
+2024-12-07,"Iowa","Michigan",120.5,104.8
+2024-12-03,"Wisconsin","Michigan",103.9,89.6
+2024-11-27,"Xavier","Michigan",85.8,96
+2024-11-25,"Virginia Tech","Michigan",102.8,93.4
+2024-11-21,"Tarleton St.","Michigan",87,96.6
+2024-11-18,"Miami OH","Michigan",107.1,110.8
+2024-11-15,"TCU","Michigan",98.7,92.4
+2024-11-10,"Wake Forest","Michigan",112.3,94.4
+2024-11-04,"Cleveland St.","Michigan",85.5,115
