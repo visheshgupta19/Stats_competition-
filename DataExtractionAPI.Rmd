@@ -103,5 +103,7 @@ for (i in seq_along(dataframes_list)) {
 
 # Convert results_list to a data frame while handling mismatches
 final_data <- rbindlist(results_list, use.names = TRUE, fill = TRUE, idcol = FALSE, ignore.attr = TRUE)
+write.csv(final_data, file = "only_opponent_data.csv", row.names = FALSE)
+
 print(final_data)
 ```
