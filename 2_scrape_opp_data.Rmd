@@ -16,15 +16,9 @@ library(data.table)
 
 ```
 
-
 ```{r}
-
-# to register
-#cbbdata::cbd_create_account(username = 'Naki', email = 'nakiyahdhariwala98@hotmail.com', password = 'Duke@123', confirm_password = 'Duke@123')
-
-cbbdata::cbd_login(username = 'Naki', password = 'Duke@123')
+cbbdata::cbd_login(username = name, password = pass)
 ```
-
 
 ```{r}
 # Game Factors
@@ -35,7 +29,7 @@ print(online_data)
 ```
 
 ```{r}
-file_path <- "team_data_collected.csv"
+file_path <- "/files/team_data_collected.csv"
 csv_data <- read.csv(file_path)
 print(csv_data)
 ```
@@ -103,7 +97,7 @@ for (i in seq_along(dataframes_list)) {
 
 # Convert results_list to a data frame while handling mismatches
 final_data <- rbindlist(results_list, use.names = TRUE, fill = TRUE, idcol = FALSE, ignore.attr = TRUE)
-write.csv(final_data, file = "only_opponent_data.csv", row.names = FALSE)
+write.csv(final_data, file = "/files/only_opponent_data.csv", row.names = FALSE)
 
 print(final_data)
 ```
