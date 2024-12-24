@@ -13,22 +13,21 @@ cbbdata::cbd_login(username = "Naki", password = "Duke@123")
 ```
 
 ```{r}
-team_names <- c("Illinois St.", "Illinois", "Alabama", "Iowa St.", "Michigan",
-                "New Hampshire", "Oklahoma", "Colgate")
 
 
-# "Michigan St.", "Houston", "Clemson", "North Carolina", 
-#                "Auburn", "Mississippi", "Kentucky", "Stanford", "Gonzaga",
-#                "San Diego St.", "Iowa St.", "Oklahoma", "Alabama", "Michigan"
+team_names <- c("North Dakota St.", "Charleston", "Charlotte", "Tennessee", "Nebraska",
+                "Oregon St.", "Seattle")
 
 # Fetch all data for the specified year
 online_data <- cbbdata::cbd_torvik_game_stats(year = 2025)
 
 # Filter for the specified date
 required_data <- online_data |>
-  filter(date == as.Date("2024-12-22"))
+  filter(date == as.Date("2024-12-23"))
 print(required_data)
+```
 
+```{r}
 # Prepare team data
 team_data <- required_data |>
   filter(team %in% team_names) |>
@@ -76,6 +75,23 @@ print(final_data)
 ```
 
 ```{r}
-file_path <- "basketball_games_data.csv"
-write.csv(final_data, file_path, row.names = FALSE)
+current_file <- "basketball_games_data.csv"
+old_file <- "basketball_games_dataOld.csv"
+
+# Read the CSV file into a data frame
+current_data <- read.csv(current_file)
+
+# Append new data to the CSV file
+write.table(
+  current_data,
+  file = old_file,
+  sep = ",",
+  row.names = FALSE,
+  col.names = FALSE,  # Prevent column names from being written again
+  append = TRUE
+)
+
+write.csv(final_data, current_file, row.names = FALSE)
 ```
+
+
