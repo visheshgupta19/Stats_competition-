@@ -13,8 +13,6 @@ cbbdata::cbd_login(username = "Naki", password = "Duke@123")
 ```
 
 ```{r}
-
-
 team_names <- c("North Dakota St.", "Charleston", "Charlotte", "Tennessee", "Nebraska",
                 "Oregon St.", "Seattle")
 

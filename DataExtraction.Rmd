@@ -1,0 +1,111 @@
+---
+title: "R Notebook"
+output: html_notebook
+---
+
+
+### Loading Packages
+```{r}
+library(dplyr)
+```
+
+
+```{r}
+cbbdata::cbd_login(username = "Naki", password = "Duke@123")
+```
+
+```{r}
+# Fetch all data for the specified year
+data <- cbbdata::cbd_torvik_game_stats(year = 2025)
+# required_data <- online_data |> filter(date == as.Date("2024-12-23"))
+
+all_teams <- unique(data$team) # There are 364 teams in total
+total_na <- colSums(is.na(data)) #4050 missing values in loc column
+```
+
+```{r}
+print(head(data))
+
+# Combine rows for each game
+all_games <- data |>
+  group_by(game_id, date) |>
+  summarize(
+    Team = first(team),
+    Opponent = last(team),
+    Team_Score = first(pts_scored),
+    Opponent_Score = first(pts_allowed),
+    Location = first(location),
+    
+    ADJO = first(adj_o),
+    ADJD = first(adj_d),
+    EFF = first(off_ppp),
+    EFG_pct = first(off_efg),
+    TO_Pct = first(off_to),
+    OR_Pct = first(off_or),
+    FTR_Pct = first(off_ftr),
+    ThreePointer_Pct = round((first(tp_pct*100)), 2),
+    FG_Pct = round((first(fg_pct*100)), 2),
+    
+    opp_ADJO = last(adj_o),
+    opp_ADJD = last(adj_d),
+    Opp_EFF = last(off_ppp),
+    Opp_EFG_Pct = last(off_efg),
+    Opp_TO_Pct = last(off_to),
+    Opp_OR_Pct = last(off_or),
+    Opp_FTR_Pct = last(off_ftr),
+    Opp_ThreePointer_Pct = round((last(tp_pct*100)), 2),
+    Opp_FG_Pct = round((last(fg_pct*100)), 2),
+    
+    .groups = "drop" # Remove grouping
+  )
+
+check <- all_games |> filter((Team == "Duke" | Opponent == "Duke"))
+
+
+print(all_games)
+print(check)
+```
+
+
+```{r}
+specific_data <- data |> filter(date == as.Date("2024-11-04"),
+                                game_id == "MaineDuke11-4")
+
+
+# Combine rows for each game
+combined_games <- specific_data |>
+  group_by(game_id, date) |>
+  summarize(
+    Team = first(team),
+    Opponent = last(team),
+    Team_Score = first(pts_scored),
+    Opponent_Score = first(pts_allowed),
+    Location = first(location),
+    
+    ADJO = first(adj_o),
+    ADJD = first(adj_d),
+    EFF = first(off_ppp),
+    EFG_pct = first(off_efg),
+    TO_Pct = first(off_to),
+    OR_Pct = first(off_or),
+    FTR_Pct = first(off_ftr),
+    ThreePointer_Pct = round((first(tp_pct*100)), 2),
+    FG_Pct = round((first(fg_pct*100)), 2),
+    
+    opp_ADJO = last(adj_o),
+    opp_ADJD = last(adj_d),
+    Opp_EFF = last(off_ppp),
+    Opp_EFG_Pct = last(off_efg),
+    Opp_TO_Pct = last(off_to),
+    Opp_OR_Pct = last(off_or),
+    Opp_FTR_Pct = last(off_ftr),
+    Opp_ThreePointer_Pct = round((last(tp_pct*100)), 2),
+    Opp_FG_Pct = round((last(fg_pct*100)), 2),
+    
+    .groups = "drop" # Remove grouping
+  )
+
+print(specific_data)
+print(combined_games)
+```
+
