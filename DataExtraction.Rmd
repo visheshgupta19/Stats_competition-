@@ -3,7 +3,6 @@ title: "R Notebook"
 output: html_notebook
 ---
 
-
 ### Loading Packages
 ```{r}
 library(dplyr)
@@ -15,19 +14,25 @@ cbbdata::cbd_login(username = "Naki", password = "Duke@123")
 ```
 
 ```{r}
-# Fetch all data for the specified year
 data <- cbbdata::cbd_torvik_game_stats(year = 2025)
-# required_data <- online_data |> filter(date == as.Date("2024-12-23"))
 
 all_teams <- unique(data$team) # There are 364 teams in total
-total_na <- colSums(is.na(data)) #4050 missing values in loc column
+total_na <- colSums(is.na(data)) 
 ```
 
+## Testing Date
 ```{r}
-print(head(data))
+current_date <- as.Date("2024-12-23")
+```
 
-# Combine rows for each game
-all_games <- data |>
+
+## Creating Train Data
+
+```{r}
+filtered_data <- data |> 
+  filter(date != current_date)
+
+train_data <- filtered_data |>
   group_by(game_id, date) |>
   summarize(
     Team = first(team),
@@ -59,21 +64,20 @@ all_games <- data |>
     .groups = "drop" # Remove grouping
   )
 
-check <- all_games |> filter((Team == "Duke" | Opponent == "Duke"))
-
-
-print(all_games)
-print(check)
+train_data$Location[is.na(train_data$Location)] <- "N" 
 ```
 
 
-```{r}
-specific_data <- data |> filter(date == as.Date("2024-11-04"),
-                                game_id == "MaineDuke11-4")
+## Creating Test Data
 
+```{r}
+## Just To Check Code
+
+date_required <- data |> 
+  filter(date == current_date)
 
 # Combine rows for each game
-combined_games <- specific_data |>
+test_data <- date_required |>
   group_by(game_id, date) |>
   summarize(
     Team = first(team),
@@ -105,7 +109,18 @@ combined_games <- specific_data |>
     .groups = "drop" # Remove grouping
   )
 
-print(specific_data)
-print(combined_games)
+test_data$Location[is.na(test_data$Location)] <- "N" 
 ```
+
+```{r}
+train_file <- "train_data.csv"
+test_file <- "test_data.csv"
+```
+
+
+```{r}
+write.csv(train_data, train_file, row.names = FALSE)
+write.csv(test_data, test_file, row.names = FALSE)
+```
+
 
