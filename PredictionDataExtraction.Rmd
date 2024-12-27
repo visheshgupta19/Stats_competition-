@@ -45,7 +45,8 @@ espn_top25_week8 <- c(
 )
 
 extra_games <- c("Colorado St.", "Georgia St.", "North Carolina Central", 
-                 "Iowa St.", "Richmond", "Boise St.", "Nevada", "Eastern Kentucky")
+                 "Iowa St.", "Richmond", "Boise St.", "Nevada", "Eastern Kentucky", 
+                 "Iona", "Texas St.", "Army", "Northeastern", "Northwestern")
 
 unique_teams <- unique(c(acc_teams, b10_teams, b12_teams, espn_top25_week8, extra_games))
 
