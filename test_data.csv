@@ -1,8 +1,1 @@
 "game_id","date","Team","Opponent","Team_Score","Opponent_Score","Location","ADJO","ADJD","EFF","EFG_pct","TO_Pct","OR_Pct","FTR_Pct","ThreePointer_Pct","opp_ADJO","opp_ADJD","Opp_EFF","Opp_EFG_Pct","Opp_TO_Pct","Opp_OR_Pct","Opp_FTR_Pct","Opp_ThreePointer_Pct"
-"Cal St. BakersfieldNorth Dakota St.12-23",2024-12-23,"Cal St. Bakersfield","North Dakota St.",60,94,"A",85.3,125.2,87.8,46.3,16.1,21.2,38.9,28.57,133.4,89.4,137.6,62.7,8.8,20,68.6,37.04
-"CharlestonLoyola Chicago12-23",2024-12-23,"Charleston","Loyola Chicago",77,68,"N",101.6,91.9,100.6,56,20.9,9.7,27.6,42.31,95.7,97.7,88.8,46.6,24.8,31.6,34.5,25
-"CharlotteMurray St.12-23",2024-12-23,"Charlotte","Murray St.",94,90,"N",118.7,110.4,116.6,50,17.4,36.4,60,22.22,104.9,115.1,111.7,46.4,8.7,28.2,52.2,23.08
-"Middle TennesseeTennessee12-23",2024-12-23,"Middle Tennessee","Tennessee",64,82,"A",116.4,98.5,91.1,48.3,15.7,15.8,23.7,30,112.6,95.3,116.7,57.1,15.7,25.8,41.1,45.45
-"NebraskaHawaii12-23",2024-12-23,"Nebraska","Hawaii",69,55,"A",107.8,93.4,111,53.6,19.3,33.3,20,41.18,103,102.5,88.5,47.9,25.7,32.1,31.9,25
-"OaklandOregon St.12-23",2024-12-23,"Oakland","Oregon St.",74,80,"N",120.1,108,108.5,50.9,20.5,38.2,42.9,19.23,110.7,112.3,117.3,50.8,16.1,46.2,28.8,45.83
-"SeattleWashington12-23",2024-12-23,"Seattle","Washington",79,70,"A",120.1,92.5,109.6,44.6,11.1,21.9,57.1,22.22,91.8,112.1,97.1,47.4,16.7,21.6,40.4,25

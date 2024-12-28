@@ -22,7 +22,7 @@ total_na <- colSums(is.na(data))
 
 ## Testing Date
 ```{r}
-current_date <- as.Date("2024-12-23")
+current_date <- as.Date("2024-12-27")
 ```
 
 
