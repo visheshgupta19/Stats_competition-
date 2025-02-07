@@ -1,8 +1,0 @@
-```{r}
-library(dplyr)
-```
-
-```{r}
-cbbdata::cbd_login(username = "Naki", password = "Duke@123")
-```
-
